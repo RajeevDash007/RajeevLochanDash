@@ -161,7 +161,7 @@ body { background: var(--smoky-black); }
     margin-top: 70px;
   }
   .toggleButton{
-    width: 23%;
+    width: 25%;
     margin-right: 38%;
   }
 }
@@ -837,22 +837,25 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px;max-height: 200px; }
+.skills-list { padding: 8px;max-height: 200px;width: 105%; }
 
 
 .skills-item { margin-bottom: 15px; }
+
 
 .skill .title-wrapper {
   display: flex;
   align-items: center;
   gap: 5px;
   margin-bottom: 8px;
+   
 }
 
 .skill .title-wrapper data {
   color: var(--light-gray);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
+  
 }
 
 .skill-progress-bg {
