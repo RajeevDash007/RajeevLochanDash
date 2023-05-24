@@ -1884,3 +1884,22 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.image-box img{
+  width: 50px;
+}
+
+
+
+.icon-holder{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 30px;
+  width: 100%;
+}
+
+@media (max-width: 500px){
+  .icon-holder{
+    grid-template-columns: repeat(4, 1fr);
+  }
+} 
